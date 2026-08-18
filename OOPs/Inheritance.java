@@ -1,4 +1,4 @@
-package OOPs;
+package OOPS;
 
 class Vehicle{
     public void display( ){

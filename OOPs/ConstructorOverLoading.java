@@ -1,4 +1,4 @@
-package OOPs;
+package OOPS;
 
 class JavaConstructor{
         JavaConstructor(String name){
