@@ -1,5 +1,5 @@
 package OOPs;
-class Student{
+class Students{
 
     String name;
     int rollNo;
@@ -26,17 +26,17 @@ class Student{
 public class StaticDemo {
     //Main is Static because it needs to call itself without creating object first
     public static void main(String[] args){
-        Student.collegeName = " Kl University";
-        Student student1 = new Student();
+        Students.collegeName = " Kl University";
+        Students student1 = new Students();
         student1.name = "Suresh";
         student1.rollNo = 30621;
         student1.Display();
 
-        Student student2 = new Student();
+        Students student2 = new Students();
         student2.name = "Suresh";
         student2.rollNo = 30621;
         student2.Display();
 
-        Student.College();
+        Students.College();
     }
 }
