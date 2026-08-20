@@ -7,6 +7,7 @@ public class IndexChar {
             if (str.charAt(i) == check ){
                 System.out.println("Index = " + i);
                 found = true;
+                break;
             }
         }
         if(!found){
